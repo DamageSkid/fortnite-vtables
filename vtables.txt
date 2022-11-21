@@ -1,8 +1,10 @@
-GetPlayerViewPoint: 0x7B0
-ClientSetCameraMode: 0x9D0
-GetCameraRotation: 0x7C0
-GetCameraLocation: 0x7C8
-GetFOVAngle: 0x780
-SetControlRotaion: 0x720
-ProcessEvent: 0x4C
-LineOfSightTo: 0x730
+GetPlayerViewPoint -> 0x7B0
+SetControlRotation -> 0x720
+GetCameraLocation  -> 0x7C8
+GetCameraRotation  -> 0x7C0
+GetFOVAngle        -> 0x780
+LineOfSightTo      -> 0x730
+ProcessEvent       -> 0x4C
+PostRender         -> 0x6D
+DrawTransition     -> 0x6E
+GetViewPoint       -> 0x2B8
